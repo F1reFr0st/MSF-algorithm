@@ -20,7 +20,7 @@ Speckle image may look like this, for instance
 
 <img src="/Readme images/speckle image.png" alt="example" width="300"/>
 
-There are many algorithms to calculate activity maps, for instance, Laser Speckle Contrast Analysis (LACSA), Generalized Differences (GD), Fuji Algorithm and etc. In this code Modified Stucture Function algorithm is implemented as it is faster, more sensitive and calculated maps have better spatial resolution. Idea is to analize **N** correlated in time speckle images, consecutively captured with constant time interval. 
+There are many algorithms to calculate activity maps, for instance, Laser Speckle Contrast Analysis (LACSA), Generalized Differences (GD), Fuji Algorithm and etc. In this code Modified Stucture Function algorithm is implemented as it is faster, more sensitive and calculated maps have better spatial resolution, comparing to other methods. Idea is to analize **N** correlated in time speckle images, consecutively captured with constant time interval. 
 
-<img src="/Readme images/speckle image.png" alt="example" width="300"/>
+<img src="/Readme images/algorithm.png" alt="example" width="1000"/>
  
