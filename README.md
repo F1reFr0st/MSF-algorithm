@@ -16,6 +16,7 @@ Before obtaining activity maps, we have to capture speckle images. Setup for cap
 
  <img src="/Readme images/speckle_setup.png" alt="example" width="300"/>
  
- Speckle may look like this, for instance
+ Speckle image may look like this, for instance
  
+ <img src="/Readme images/speckle image.png" alt="example" width="300"/>
  
