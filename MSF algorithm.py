@@ -8,7 +8,15 @@ import time
 def get_image(folder_path, n, file_extension):  # Load image and convert to numpy int array
     img = image.imread(os.path.join(folder_path, str(n) + file_extension))
     img = np.array(img)
+    if len(img.shape) == 3:
+        img = rgb2gray(img)
     return img.astype(int)
+
+
+def rgb2gray(rgb):
+    r, g, b = rgb[:,:,0], rgb[:,:,1], rgb[:,:,2]
+    gray = 0.2989 * r + 0.5870 * g + 0.1140 * b
+    return gray
 
 
 file_extension = '.bmp'  # File extension of analyzed images
@@ -58,3 +66,4 @@ for n_set in range(1, n_images, number_of_images_in_set):  # Set step. For examp
 print()
 print(f'{n_analyzed_pairs} pairs of images in one set analyzed')
 print(f'Execution time: {time.process_time() - t0}s')
+plt.show()
