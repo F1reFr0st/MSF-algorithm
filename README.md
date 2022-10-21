@@ -14,9 +14,13 @@ Images that show activity distribution within controlled object are called ***ac
 ## How to calculate activity maps?
 Before obtaining activity maps, we have to capture speckle images. Setup for capturing images is shown below. It consists of vibration-isolated table, laser, laser expander and camera, connected to PC or laptop.
 
- <img src="/Readme images/speckle_setup.png" alt="example" width="300"/>
- 
- Speckle image may look like this, for instance
- 
- <img src="/Readme images/speckle image.png" alt="example" width="300"/>
+<img src="/Readme images/speckle_setup.png" alt="example" width="300"/>
+
+Speckle image may look like this, for instance
+
+<img src="/Readme images/speckle image.png" alt="example" width="300"/>
+
+There are many algorithms to calculate activity maps, for instance, Laser Speckle Contrast Analysis (LACSA), Generalized Differences (GD), Fuji Algorithm and etc. In this code Modified Stucture Function algorithm is implemented as it is faster, more sensitive and calculated maps have better spatial resolution. Idea is to analize **N** correlated in time speckle images, consecutively captured with constant time interval. 
+
+<img src="/Readme images/speckle image.png" alt="example" width="300"/>
  
