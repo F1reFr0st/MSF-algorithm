@@ -9,9 +9,9 @@ Images that show activity distribution within controlled object are called ***ac
 
 
 
-**Blod flow estimation**   |  Solarized Ocean
+**Blod flow estimation**   |  **Non-destructive testing**
 :-------------------------:|:-------------------------:
- <img src="/Readme images/example1.png" alt="example" width="200"/>|<img src="/Readme images/example1.png" alt="example" width="200"/>
+ <img src="/Readme images/example1.png" alt="example" width="200"/>|<img src="/Readme images/example2.png" alt="example" width="200"/>
 
  
 
