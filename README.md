@@ -14,4 +14,4 @@ Images that show activity distribution within controlled object are called ***ac
 ## How to calculate activity maps?
 Before obtaining activity maps, we have to capture speckle images. Setup for capturing images is shown below. It consists of vibration-isolated table, laser, laser expander and camera, connected to PC or laptop.
 
- <img src="/Readme images/speckle setup.png" alt="example" width="200"/>
+ <img src="/Readme images/speckle_setup.png" alt="example" width="200"/>
