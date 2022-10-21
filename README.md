@@ -5,5 +5,13 @@ Dynamic speckle imaging (DSI) enables visualization of speed distribution for pr
 Method is used in such fields as non-destructive testing, estimation of blood flow, measurement of bacterial response, observation of processes in plants,
 food quality assessment, drying of paints, fire detection and etc.<br/>
 Images that show activity distribution within controlled object are called ***activity maps***. Below are shown some examples.
-<img src="/images/example%201.bmp" alt="example" width="200"/>
+
+
+
+
+**Blod flow estimation**   |  Solarized Ocean
+:-------------------------:|:-------------------------:
+ <img src="/Readme images/example1.png" alt="example" width="200"/>|<img src="/Readme images/example1.png" alt="example" width="200"/>
+
+ 
 
