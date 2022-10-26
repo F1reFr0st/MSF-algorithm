@@ -25,4 +25,12 @@ Speckle image may look like this, for instance
 There are many algorithms to calculate activity maps, for instance, Laser Speckle Contrast Analysis (LACSA), Generalized Differences (GD), Fuji Algorithm and etc. In this code Modified Stucture Function algorithm is implemented as it is faster, more sensitive and calculated maps have better spatial resolution, comparing to other methods. Idea is to analize **N** correlated in time speckle images, consecutively captured with constant time interval. 
 
 <img src="/Readme images/algorithm 2 .png" alt="example" width="1000"/>
- 
+
+To calculate final value of one pixel with **i**, **j** coordinates, we use **Normalized Modified Structure Function** equation.
+
+**Normalized Modified Structure Function**
+$$\ S(i,j,m) = \frac{1}{N-1}\sum_{n=1}^{N-m}\frac{ \left|I_{ij,n} - I_{ij,n+m} \right|}{I_{ij,n} + I_{ij,n+m}} $$
+
+Choice of **m** value affects the quality and sensitivity of the activity map to changes taking place in the observed object. Usually the value varies from 1 to 10.
+
+You can download .zip file containing 20 images to see how this algorithm works and play with choice of **m** step. Also enter size of set equal to 20 in the input window.
